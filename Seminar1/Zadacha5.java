@@ -6,5 +6,17 @@
 package Seminar1;
 
 public class Zadacha5 {
-    
+    public static void main(String[] args) {
+        System.out.println(pow(2, -3));
+    }
+    static double pow(double a, int b){
+        double result = 1;
+        if (b == 0 || a == 0) return 1;
+        for (int i = 0; i < Math.abs(b); i++) {
+            result *= a;
+        }
+//        return  b > 0 ? result : 1/result;
+        if(b > 0) return result;
+        else return 1/result;
+    }
 }
