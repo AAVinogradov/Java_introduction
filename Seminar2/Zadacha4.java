@@ -4,7 +4,6 @@
 package Seminar2;
 
 import java.io.FileWriter;
-import java.util.Scanner;
 
 public class Zadacha4 {
     public static void main(String[] args) {
